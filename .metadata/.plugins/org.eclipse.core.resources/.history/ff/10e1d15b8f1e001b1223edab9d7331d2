@@ -1,0 +1,30 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class TechnoSys {
+	private String name;
+	
+	public TechnoSys() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public TechnoSys(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void show() {
+		System.out.println("hi technosys");
+	}
+	
+}
